@@ -1,4 +1,100 @@
-h1{
+body{
+	font-family: 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, 'Hiragino Sans GB', sans-serif;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+#head{
+	width: 860px;
+	color: black;
+	height: 180px;
+	border-bottom: solid 1px black;
+	margin: auto;
+}
+
+.top-title{
+	float: left;
+	margin: auto;
+	color: black;
+	padding-left: 30px;
+	padding-top: 10px;
+}
+
+.top-title h1{
+	margin-bottom: 10px;
+}
+
+.top-title h2{
+	font-size: 24px;
+	color: #faf;
+	margin-top: 10px;
+}
+
+.top-img{
+	margin-right: 25px;
+	float: right;
+	padding-top: 10px;
+
+}
+
+.top-img img{
+	height: 160px;
+	border-radius: 5px;
+}
+
+.top-blank{
+	height: 140px;
+}
+
+.top-list ul{
+	padding-left: 5px;
+	list-style: none;
+}
+
+.top-list ul li{
+	display: inline-block;
+	padding-left: 30px;
+	margin-left: 0;
+}
+
+#wrapper{
+	width: 860px;
+	margin: auto;
+}
+
+.main{
+	height: 1000px;
+	width: 550px;
+	border-right: dashed 1px gray;
+}
+
+.item{
+	border: solid 1px gray;
+	margin-top: 10px;
+	margin-left: 20px;
+	border-radius: 8px;
+	margin-right: 20px;
+}
+
+.item h3{
 	text-align: center;
-	border-bottom: solid 1px #ccc;
+	margin-bottom: 10px;
+}
+
+.item h4{
+	text-align: center;
+	margin-top: 10px;
+}
+
+.item-img{
+	padding-left: 94px;
+	margin-bottom: 15px;
+}
+
+.item-img img{
+	width: 320px;
+	border-radius: 5px;
 }
