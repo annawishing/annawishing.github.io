@@ -29,7 +29,7 @@ a{
 
 .top-title h2{
 	font-size: 24px;
-	color: #faf;
+	color: red;
 	margin-top: 10px;
 }
 
@@ -66,13 +66,16 @@ a{
 }
 
 .main{
-	height: 1000px;
 	width: 550px;
 	border-right: dashed 1px gray;
+	display: inline-block;
+	margin-top: 5px;
+
 }
 
 .item{
 	border: solid 1px gray;
+	height: 600px;
 	margin-top: 10px;
 	margin-left: 20px;
 	border-radius: 8px;
@@ -87,6 +90,7 @@ a{
 .item h4{
 	text-align: center;
 	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .item-img{
@@ -97,4 +101,31 @@ a{
 .item-img img{
 	width: 320px;
 	border-radius: 5px;
+}
+
+.side{
+	width: 280px;
+	float: right;
+	display: inline-block;
+}
+
+.side-list ul{
+	padding-left: 10px;
+}
+
+#footer{
+	width: 860px;
+	color: black;
+	border-top: solid 1px black;
+	margin: auto;
+	margin-top: 15px;
+}
+
+.footer-brief{
+	margin: auto;
+}
+
+.footer-brief h4{
+	text-align: center;
+	margin-top: 15px;
 }
