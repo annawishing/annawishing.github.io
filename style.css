@@ -7,6 +7,10 @@ a{
 	color: black;
 }
 
+.clear{
+	clear: both;
+}
+
 #head{
 	width: 860px;
 	color: black;
@@ -68,9 +72,8 @@ a{
 .main{
 	width: 550px;
 	border-right: dashed 1px gray;
-	display: inline-block;
 	margin-top: 5px;
-
+	float: left;
 }
 
 .item{
