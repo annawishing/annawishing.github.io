@@ -114,8 +114,21 @@ a{
 	display: inline-block;
 }
 
-.side-list ul{
+.side-list{
 	padding-left: 10px;
+	padding-top: 25px;
+
+}
+
+.side-list-title{
+	font-size: 20px;
+	color: #5f5f5f;
+}
+
+.side-list a{
+	text-decoration: underline;
+	color: #8b00c0;
+	font-weight: bold;
 }
 
 #footer{

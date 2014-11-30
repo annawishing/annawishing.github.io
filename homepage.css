@@ -31,3 +31,7 @@
 #website_list_container{
 	padding-top: 20px;
 }
+
+#website_list_container a{
+	font-weight: bold;
+}
