@@ -1,0 +1,37 @@
+body{
+	background-color: #333;
+}
+
+#head{
+	margin-top: 35px;
+    color: #fff8f1;
+}
+
+.title{
+	text-align: center;
+	padding-bottom: 35px;
+	font-size: 60px;
+
+}
+
+.container{
+	text-align: center;
+	line-height: 1.5;
+}
+
+#video{
+	text-align: center;
+	padding-top: 15px;
+}
+
+#footer{
+	text-align: center;
+	text-decoration: underline;
+	color: #ff6500;
+	font-weight: bold;
+	margin-top: 30px;
+}
+
+#footer a{
+	color: #ff6500;
+}
