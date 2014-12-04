@@ -3,28 +3,27 @@ body{
 }
 
 #top{
-	margin: 40px auto;
+	margin: 30px auto;
 	text-align: center;
 	font-size: 30px;
 	color: #333;
 	font-weight: bold;
-
 }
 
 #center{
 	border: 1px solid black;
 	width: 930px;
-	height: 625px;
+	height: 540px;
 	margin: auto;
 	background-color: #ffffe0;
 }
 
 #left{
+	float: left;
 	width: 150px;
-	padding-top: 40px;
+	margin-top: 40px;
 	padding-left: 40px;
-	display: inline-block;
-	margin-bottom: 250px;
+	margin-bottom: 225px;
 }
 
 .color{
@@ -32,6 +31,7 @@ body{
 	width: 50px;
 	height: 50px;
 	margin-bottom: 20px;
+	cursor: pointer;
 }
 
 #red{
@@ -52,48 +52,95 @@ body{
 
 #right{
 	border: 1px solid black;
-	width: 680px;
-	height: 540px;
-	display: inline-block;
-	margin: 40px auto;
+	width: 650px;
+	height: 460px;
+	float: right;
 	background-color: white;
+	margin-top: 40px;
+	margin-right: 50px;
 }
 
 .row{
 	border-bottom: 10px solid black;
-	width: 680px;
+	width: 100%;
 }
 
 #row1{
-	height: 120px;
+	height: 115px;
 }
 
 #row2{
-	height: 180px;
+	height: 150px;
 
 }
 
 #row3{
-	height: 100px;
+	height: 105px;
+}
+
+#row4{
+	height: 60px;
+	border-bottom: 0;
 }
 
 .box{
 	border-right: 10px solid black;
-	height: 540px;
-	display: inline-block;
-
+	float: left;
+	height: 100%;
 }
 
-#box1{
+.box1{
 	width: 140px;
-
 }
 
-#box2{
-	margin-left: 270px;
+.box2{
+	width: 270px;
 }
 
-#box3{
+.box3{
 	width: 100px;
 }
 
+.box4{
+	width: 110px;
+	border: 0;
+}
+
+#footer{
+	width: 200px;
+	height: 52px;
+	background-color: #888;
+	margin-top: 2px;
+
+}
+
+a{
+	text-decoration: none;
+}
+
+#orange{
+	width: 12px;
+	height: 12px;
+	background-color: orange;
+}
+
+#home{
+	color: black;
+	font-size: 12px;
+}
+
+#purple{
+	width: 12px;
+	height: 12px;
+	background-color: purple;
+}
+
+#blog{
+	color: black;
+	font-size: 12px;
+}
+
+.tab{
+	display: inline-block;
+	margin-left: 10px;
+}
