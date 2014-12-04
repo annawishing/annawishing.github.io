@@ -59,7 +59,7 @@ body{
 	background-color: white;
 }
 
-#row{
+.row{
 	border-bottom: 8px solid black;
 	width: 640px;
 }
