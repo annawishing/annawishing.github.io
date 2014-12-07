@@ -1,0 +1,25 @@
+body{
+	background-color: #48c5dc;
+
+}
+
+#button{
+	font-size: 32px;
+	color: #f9fafa;
+	height: 60px;
+	width: 180px;
+	background-color: #bc1939;
+	margin: auto;
+	margin-top: 120px;
+	border-radius: 5px;
+	padding-left: 35px;
+	padding-top: 25px;
+	cursor: pointer;
+}
+
+#button:hover{
+	background-color: #900923;
+	margin-top: 125px;
+}
+
+
