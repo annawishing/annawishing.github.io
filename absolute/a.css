@@ -1,0 +1,39 @@
+body{
+	
+}
+
+#ab{
+	position: fixed;
+	top: 50px;
+	color: rgb(203, 222, 252);
+}
+
+.ab{
+	text-align: center;
+	color: black;
+	margin-left: 200px;
+}
+
+#title{
+	margin-top: 200px;
+	font-size: 30px;
+}
+
+p{
+	height: 30px;
+}
+
+#under{
+	height: 320px;
+	padding-top: 1000px;
+	width: 300px;
+}
+
+#footer{
+	width: 653px;
+	height: 300px;
+	background:url("img/bg.jpeg") #ccc no-repeat;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
