@@ -1,0 +1,41 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>无该频道的马赛克</title>
+	<style type="text/css">
+		body{
+			background-color: #ccc;
+		}
+		#container{
+			width: 800px;
+			height: 3000px;
+			margin: 30px auto;
+			background-color: white;
+		}
+		.box{
+			width: 100px;
+			height: 100px;
+			background-color: #333;
+			float: left;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="container">
+	</div>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			for(var i = 0; i < 240; i++){
+				$("#container").append("<div class='box'></div>");
+			}
+
+			$(".box").on("mouseover", function(){
+				var a = "#" + Math.random().toString(16).slice(2,8);
+				$(this).css("background-color",a)
+			})
+		})
+	</script>
+</body>
+</html>
