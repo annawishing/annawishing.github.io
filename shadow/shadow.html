@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>太阳的黑子</title>
+	<style type="text/css">
+		#sun{
+			width: 100px;
+			height: 100px;
+			background-color: #fbb954;
+			border-radius: 50px;
+			margin: auto;
+			margin-top: 230px;
+			box-shadow: 0px 0px 30px 10px #fff45c;
+		}
+	</style>
+	<script type="text/javascript" src="../jquery.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+
+			$("#sun").on("click",function(){
+
+				var value = $(this).css("box-shadow");
+				var array = value.split("px");
+				var blur = array[2];
+				var spread = array[3];
+				var newBlur = parseInt(blur) + 2;
+				var newSpread = parseInt(spread) + 5;
+
+				$(this).css("box-shadow", "0px 0px " + newBlur +"px " + newSpread + "px " + "#fff45c");
+			})
+		})
+	</script>
+</head>
+<body>
+	<div id="sun"></div>
+</body>
+</html>
