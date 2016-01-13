@@ -1,0 +1,256 @@
+
+
+/*.background-img{
+	width: 95%;
+	position: absolute;
+	top: -45px;
+	z-index: -1;
+}*/
+/*
+.clearfix{
+	content: ".";
+	display: block;
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;
+	clear: both;
+}*/
+
+.heading{
+	background-image: url(../images/background.jpg);
+	padding-top: 30px;
+	text-align: center;
+}
+
+h1{
+	color: #fff;
+	padding: 40px 0;
+	word-spacing: 12px;
+	font-weight: 400;
+	font-size: 3em;
+
+}
+
+.btn-default{
+	background: #4C4B4B;
+	border-color: #4C4B4B;
+}
+
+.heading .btn-doc{
+	margin-bottom: 20px;
+}
+.btn-doc{
+	color: #fff;
+/*	background-color: transparent;
+	border-color: #0B4AC1;*/
+}
+
+.btn-doc:hover{
+	background: #333;
+	color: #fff;
+	border-color: #333;
+}
+
+.nav{
+	background-color: #fff;
+}
+
+.nav .menu{
+	margin-bottom: 0;	
+}
+.nav ul li{
+	display: inline-block;
+	padding: 22px;
+}
+
+.nav ul li a{
+	color: #505050;
+}
+
+.nav ul li a:hover{
+	color: #f4645f;
+	text-decoration: none;
+}
+
+.nav ul .active{
+	border-bottom: 2px solid #0B4AC1;
+}
+
+.content-warp{
+	background-color: #FAEBCC;
+
+}
+
+
+.post{
+	display: block;
+	padding: 35px;
+	margin: 40px 0;
+	background-color: #fff;
+}
+
+.post-head{
+	text-align: center;
+}
+
+.post-head .post-title{
+	font-size: 2em;
+	line-height: 1.2em;
+}
+
+.post-head .post-title a{
+	color: #303030;
+	text-decoration: none;
+}
+
+.more-info{
+	margin-top: 20px;
+	color: #959595;
+}
+
+.more-info .author a{
+	color: #f4645f;
+}
+
+.post-img{
+	margin: 40px 0;
+}
+
+.post-img img{
+	width: 100%;
+}
+
+/* 字体设置比较难 */
+.post-content{
+	font: 400 18px/1.62 "Georgia", "Xin Gothic", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei", sans-serif;
+	color: #444443;
+}
+
+.post-content{
+	width: 100%;
+}
+
+.read-more{
+	padding: 30px 0;
+	border-bottom: 1px solid #ccc;
+
+}
+
+.post-tags{
+	margin-top: 20px;
+	color: #f4645f;
+}
+
+.post-tags a{
+	color: #959595;
+}
+
+.post-tags a:hover{
+	color: #f4645f;
+}
+
+.pagination{
+	display: block;
+	text-align: center;
+}
+
+.page-number{
+	display: inline-block;
+	padding: 6px 12px;
+	text-align: center;
+	color: #fff;
+	background-color: #337ab7;
+	border: 1px solid #2e6da4;
+	border-radius: 3px;
+}
+
+.sidebar{
+/*	float: left;*/
+}
+
+.widget{
+	display: block;
+	margin-top:40px;
+	padding: 21px 25px;
+	background-color: #fff;
+}
+
+.widget .title{
+	padding-bottom: 7px;
+	border-bottom: 1px solid #ebebeb;
+	margin-bottom: 20px;
+}
+
+h4{
+	font-size: 1.5em;
+}
+
+.community a{
+	color: #f4645f;
+}
+
+.btn-block:hover{
+	background-color: #333;
+	border-color: #333;
+}
+
+.tag-cloud{
+	line-height: 1.5em;
+}
+
+.tag-cloud a{
+	display: inline-block;
+	border: 1px solid #ebebeb;
+	padding: 2px 7px;
+	margin: 0 7px 5px 0;
+	color: #959595;
+}
+
+.tag-cloud a:hover{
+	text-decoration: none;
+	background-color: #f4645f;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
