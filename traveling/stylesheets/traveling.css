@@ -39,11 +39,6 @@ h1{
 .heading .btn-doc{
 	margin-bottom: 20px;
 }
-.btn-doc{
-	color: #fff;
-/*	background-color: transparent;
-	border-color: #0B4AC1;*/
-}
 
 .btn-doc:hover{
 	background: #333;
@@ -68,7 +63,7 @@ h1{
 }
 
 .nav ul li a:hover{
-	color: #f4645f;
+	color: #337ab7;
 	text-decoration: none;
 }
 
@@ -109,7 +104,7 @@ h1{
 }
 
 .more-info .author a{
-	color: #f4645f;
+	color: #337ab7;
 }
 
 .post-img{
@@ -138,7 +133,7 @@ h1{
 
 .post-tags{
 	margin-top: 20px;
-	color: #f4645f;
+	color: #337ab7;
 }
 
 .post-tags a{
@@ -146,7 +141,7 @@ h1{
 }
 
 .post-tags a:hover{
-	color: #f4645f;
+	color: #337ab7;
 }
 
 .pagination{
@@ -186,7 +181,7 @@ h4{
 }
 
 .community a{
-	color: #f4645f;
+	color: #337ab7;
 }
 
 .btn-block:hover{
@@ -208,7 +203,7 @@ h4{
 
 .tag-cloud a:hover{
 	text-decoration: none;
-	background-color: #f4645f;
+	background-color: #337ab7;
 	color: #fff;
 }
 
