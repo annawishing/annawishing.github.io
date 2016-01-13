@@ -34,6 +34,7 @@ h1{
 .btn-default{
 	background: #4C4B4B;
 	border-color: #4C4B4B;
+	color: #fff;
 }
 
 .heading .btn-doc{
@@ -60,6 +61,7 @@ h1{
 
 .nav ul li a{
 	color: #505050;
+	font-size: 1.5em;
 }
 
 .nav ul li a:hover{
