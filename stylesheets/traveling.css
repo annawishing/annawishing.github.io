@@ -20,6 +20,7 @@
 	background-image: url(../images/background.jpg);
 	padding-top: 30px;
 	text-align: center;
+	background-size: cover;
 }
 
 h1{
@@ -39,6 +40,15 @@ h1{
 
 .heading .btn-doc{
 	margin-bottom: 20px;
+}
+
+@media screen and (max-width: 767px){
+	.heading .btn-doc{
+		display: block;
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 
 .btn-doc:hover{
